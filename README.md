@@ -14,17 +14,17 @@ parsing strings. This is extremely useful when creating children. What’s done 
 is the creation of a list that contains the names and attributes for all ten items 
 that can be brought. This list contains the following items for this knapsack problem:
 
-Item	        Weight	Survival Points
-Sleeping Bag	    15	             15
-Rope	             3	              7
-Pocket Knife	     2	             10
-Flashlight	       5	              5
-Bottle	           9	              8
-Sugar Candy	      20	             17
-Lighter	           1	             10
-GPS	               5	             13
-Tent	            15	             20
-Whistle	           4	              2
+Item (Weight, Survival Points)
+Sleeping Bag (15, 15)
+Rope (3, 7)
+Pocket Knife (2, 10)
+Flashlight (5, 5)
+Bottle (9, 8)
+Sugar Candy (20, 17)
+Lighter	(1, 10)
+GPS (5, 13)
+Tent (15, 20)
+Whistle	(4, 2)
 
 Next, a population of binary numbers with 10 digits were randomly generated. Each number
 in the sequence represents one of the 10 items. 1 means that the item is taken on the 
