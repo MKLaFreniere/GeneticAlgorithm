@@ -1,6 +1,8 @@
 # GeneticAlgorithm
 An example of the genetic algorithm I had to make for a project in my AI class
 
+## The Knapsack Problem
+
 This algorithm solves the knapsack problem, which involves picking a set of 
 camping items that best help one survive. Each item has the attributes of weight
 and survivability. In order to camp comfortably, the total weight of the items 
@@ -8,6 +10,8 @@ brought cannot exceed 30. Because of this little caveat, there are a multitude
 of solutions that can be found by bringing different items. Finding these can be
 difficult by hand, but using a genetic algorithm, it can be solved quite quickly 
 and reliably. 
+
+## Program Description
 
 For this genetic algorithm used, it was programmed in python due to the ease of 
 parsing strings. This is extremely useful when creating children. What’s done first
